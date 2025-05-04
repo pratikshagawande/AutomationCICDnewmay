@@ -55,6 +55,7 @@ public class sandaloneTcs {
 		driver.findElement(By.cssSelector(".btnn.action__submit.ng-star-inserted")).click();
 		String successmessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		Assert.assertTrue(successmessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+System.out.Println("hello");
 		driver.close();
 
 	}
